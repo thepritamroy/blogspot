@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.btn-container{
+    position: relative;
+    width: 50px;
+    height: 20px;
+    transition: transform .35s;
+}
+.js-btn-container-rotate{
+    transform: rotate(180deg);
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border: none;
+    overflow: hidden;
+    border-radius: 50px;
+    color: aliceblue;
+
+}
+
+.toggle-btn{
+    position: absolute;
+    left: 2px;
+    top: 5%;
+    width: 19px;
+    height: 90%;
+    background: white;
+    border-radius: 50%;
+    transition-property: transform;
+    transition-duration:.2s ;
+    transition-delay:.2s ;
+}
+
+.js-toggle-btn-right{
+    transform: translateX(28px);
+    
+}
+.js-btn{
+    transform: rotate(0deg);
+    transition: transform .3s;
+}
+.js-btn-right{
+    background: white
+}
+.js-toggle-btn-right{
+    background: #000;
+}
+
+
