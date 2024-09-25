@@ -255,7 +255,7 @@ nav {
         gap: 20px;
     }
     nav{
-        margin-top: 30px;
+        padding-top: 30px;
         flex-direction: column;
     }
     .side-bar{
@@ -289,7 +289,7 @@ nav {
         gap: 20px;
     }
     nav{
-        margin-top: 30px;
+        padding-top: 30px;
         flex-direction: column;
     }
     .side-bar{
